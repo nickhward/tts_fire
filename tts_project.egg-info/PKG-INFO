@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: tts_project
+Version: 0.1.0
+Summary: A TTS project with PyTorch models and utilities
+Author: Nick Ward
+Requires-Python: >=3.9
+Requires-Dist: torch>=2.0.0
+Requires-Dist: torchaudio>=2.0.0
+Requires-Dist: numpy
+Requires-Dist: scipy
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

@@ -1,0 +1,10 @@
+pyproject.toml
+setup.py
+models/__init__.py
+models/hubert/__init__.py
+models/hubert/waveform_encoder.py
+tts_project.egg-info/PKG-INFO
+tts_project.egg-info/SOURCES.txt
+tts_project.egg-info/dependency_links.txt
+tts_project.egg-info/requires.txt
+tts_project.egg-info/top_level.txt
