@@ -1,5 +1,7 @@
 pyproject.toml
 setup.py
+model_utils/__init__.py
+model_utils/transpose.py
 models/__init__.py
 models/hubert/__init__.py
 models/hubert/waveform_encoder.py

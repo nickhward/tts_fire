@@ -9,15 +9,14 @@ def test_waveform_encoder_output_shape():
     model.eval()
 
     batch_size = 4
-    channels = 512
-    time = 16000
+    sample_rate = 16000
+    channel = 1
+
     
-    x = torch.randn(batch_size, channels, time)
+    x = torch.randn(batch_size,channel, sample_rate)
     
     with torch.no_grad(): 
         y = model(x)
 
-    print(dir(y))
-    print(y.shape)
-    print(y.ndim)
     assert y.ndim == 3
+
